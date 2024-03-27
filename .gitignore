@@ -160,7 +160,7 @@ cython_debug/
 #.idea/
 # todo file
 todo
-# paper
-paper/
+# papers
+papers/
 #virtual env
 env/
