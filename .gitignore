@@ -162,5 +162,7 @@ cython_debug/
 todo
 # papers
 papers/
-#virtual env
-env/
+
+#ide
+.idea/
+.vscode/
