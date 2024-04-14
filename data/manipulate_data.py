@@ -38,7 +38,6 @@ def transform_dataset(source_dir, target_dir):
 
 
 def _transform_json(json_file_path):
-    images = []
     with open(json_file_path, 'r') as fp:
         for line in fp:
             image_mask = json.loads(line)
@@ -55,9 +54,7 @@ def _transform_json(json_file_path):
                     if x != -2:
                         bin_mask[y][x] = 255
 
-            images.append((img, bin_mask))
-
-    return images
+            yield img, bin_mask
 
 
 def display_data(path):
