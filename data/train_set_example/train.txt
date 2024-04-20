@@ -1,0 +1,3 @@
+["data/train_set_example/images/0000.jpg", "data/train_set_example/images/0001.jpg", "data/train_set_example/images/0002.jpg", "data/train_set_example/images/0003.jpg", "data/train_set_example/images/0004.jpg"]
+["data/train_set_example/bin_masks/0000.jpg", "data/train_set_example/bin_masks/0001.jpg", "data/train_set_example/bin_masks/0002.jpg", "data/train_set_example/bin_masks/0003.jpg", "data/train_set_example/bin_masks/0004.jpg"]
+["data/train_set_example/instance_masks/0000.jpg", "data/train_set_example/instance_masks/0001.jpg", "data/train_set_example/instance_masks/0002.jpg", "data/train_set_example/instance_masks/0003.jpg", "data/train_set_example/instance_masks/0004.jpg"]
