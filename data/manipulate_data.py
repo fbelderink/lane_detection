@@ -1,7 +1,6 @@
 import os
 import cv2
 import json
-import matplotlib.pyplot as plt
 import numpy as np
 from kaggle.api.kaggle_api_extended import KaggleApi
 from common.utils import get_project_root, get_file_paths
