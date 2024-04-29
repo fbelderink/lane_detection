@@ -5,7 +5,7 @@ from encoder import ENetEncoder
 
 class ENetDecoder(nn.Module):
 
-    def __init__(self, channels_sizes, C):
+    def __init__(self, channels_sizes, num_classes):
         super().__init__()
 
         assert len(channels_sizes) == 3
@@ -13,7 +13,7 @@ class ENetDecoder(nn.Module):
         self.stage4 = _Stage4(channels_sizes[0], channels_sizes[1])
         self.stage5 = _Stage5(channels_sizes[1], channels_sizes[2])
         self.full = nn.ConvTranspose2d(channels_sizes[2],
-                                       C,
+                                       num_classes,
                                        kernel_size=3,
                                        stride=2,
                                        padding=1,
